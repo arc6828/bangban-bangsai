@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\API\LineWebhookController;
+use App\Http\Controllers\API\ThaiWaterController;
 use App\Models\ExportFile;
 use App\Models\LineMessageAPI;
 use App\Models\LineUser;
@@ -132,6 +133,8 @@ Route::get("waterlevel/predict", function () {
 });
 
 // USE FOR number.blade.php
+
+Route::get("now2/{name}", [ThaiWaterController::class,"now"]);
 
 Route::get("now/{name}", function ($name) {
     $url = "https://ckartisanspace.sgp1.digitaloceanspaces.com/thungsong/now/now-{$name}.json";
