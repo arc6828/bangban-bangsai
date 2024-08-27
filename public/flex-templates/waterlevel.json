@@ -1,0 +1,251 @@
+{
+    "type": "bubble",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "สถานีระดับน้ำ",
+                "weight": "bold",
+                "color": "#1DB446",
+                "size": "lg"
+            },
+            {
+                "type": "text",
+                "text": "ทุ่งสง (795)",
+                "weight": "bold",
+                "size": "xl",
+                "margin": "md"
+            },
+            {
+                "type": "text",
+                "text": "ต.นาหลวงเสน อ.ทุ่งสง จ.นครศรีธรรมราช",
+                "size": "xs",
+                "color": "#aaaaaa",
+                "wrap": true
+            },
+            {
+                "type": "separator",
+                "margin": "xxl"
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "margin": "xxl",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "วันที่",
+                                "size": "sm",
+                                "color": "#555555",
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "text": "04/08/66 19.50",
+                                "size": "sm",
+                                "color": "#111111",
+                                "align": "end"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "ปริมาณน้ำ",
+                                "size": "lg",
+                                "color": "#555555",
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "text": "12.89%",
+                                "size": "lg",
+                                "color": "#111111",
+                                "align": "end"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "สถานะ",
+                                "size": "sm",
+                                "color": "#555555",
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "text": "น้ำน้อย",
+                                "size": "sm",
+                                "color": "#111111",
+                                "align": "end"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "ต่ำกว่าตลิ่ง (ม.)",
+                                "size": "sm",
+                                "color": "#555555",
+                                "flex": 0
+                            },
+                            {
+                                "type": "text",
+                                "text": "4.03",
+                                "size": "sm",
+                                "color": "#111111",
+                                "align": "end"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "xxl"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "margin": "xxl",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "ระดับตลิ่ง (ม.ทรก.)",
+                                "size": "sm",
+                                "color": "#555555"
+                            },
+                            {
+                                "type": "text",
+                                "text": "55.2",
+                                "size": "sm",
+                                "color": "#111111",
+                                "align": "end"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "ระดับน้ำ (ม.ทรก.)",
+                                "size": "sm",
+                                "color": "#555555"
+                            },
+                            {
+                                "type": "text",
+                                "text": "51.17",
+                                "size": "sm",
+                                "color": "#111111",
+                                "align": "end"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "ระดับท้องน้ำ (ม.ทรก.)",
+                                "size": "sm",
+                                "color": "#555555"
+                            },
+                            {
+                                "type": "text",
+                                "text": "50.573",
+                                "size": "sm",
+                                "color": "#111111",
+                                "align": "end"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "xxl"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "action": {
+                                    "type": "uri",
+                                    "label": "แผนที่",
+                                    "uri": "https://www.google.com/maps/@14.1546271,100.6159917,15z"
+                                },
+                                "height" : "sm",
+                                "style": "primary"
+                            }
+                        ],
+                        "margin": "xxl"
+                    }
+                ]
+            },
+            {
+                "type": "separator",
+                "margin": "xxl"
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "margin": "md",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "REPORT ID",
+                        "size": "xs",
+                        "color": "#aaaaaa",
+                        "flex": 0
+                    },
+                    {
+                        "type": "text",
+                        "text": "#789402940",
+                        "color": "#aaaaaa",
+                        "size": "xs",
+                        "align": "end"
+                    }
+                ]
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "margin": "md",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)",
+                        "size": "xs",
+                        "color": "#aaaaaa",
+                        "flex": 0
+                    }
+                ]
+            }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+    },
+    "styles": {
+        "footer": {
+            "separator": true
+        }
+    }
+}

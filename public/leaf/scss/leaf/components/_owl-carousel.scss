@@ -1,0 +1,211 @@
+/**
+ * = Owl carousels
+ */
+
+.owl-theme {
+	// Styling Next and Prev buttons
+	.owl-nav {
+		margin-top: 2rem;
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+
+		[class*='owl-'] {
+			display: inline-block;
+			margin: $owl-nav-margin;
+			padding: $owl-nav-padding;
+			background: $owl-nav-background;
+			cursor: pointer;
+
+			&:hover {
+				background-color: transparent;
+				color:$primary;
+				text-decoration: none;
+            }
+            &:focus{
+                outline: none;
+            }
+		}
+		.disabled {
+			opacity: $owl-nav-disabled-opacity;
+			cursor: not-allowed;
+		}
+	}
+
+	// Styling dots
+	.owl-nav.disabled + .owl-dots {
+		margin-top: 25px;
+	}
+
+	.owl-dots {
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+
+		.owl-dot {
+			display: inline-block;
+			zoom: 1;
+			*display: inline;
+
+			span {
+				width: $owl-dot-width;
+				height: $owl-dot-height;
+				margin: $owl-dot-margin;
+				background: transparent;
+				border: $owl-dot-border-width solid $primary;
+				display: block;
+				-webkit-backface-visibility: visible;
+				transition: opacity 200ms ease;
+				border-radius: $owl-dot-rounded;
+			}
+
+			&.active,
+			&:hover {
+				span {
+					background: $primary;
+				}
+            }
+            &:focus{
+                outline: none;
+            }
+		}
+	}
+}
+
+.owl-carousel{
+    .owl-nav button.owl-prev,
+	.owl-nav button.owl-next,
+	button.owl-dot {
+		color:$owl-nav-color;
+	}
+
+	.owl-item{
+		img{
+			&.avatar-sm{
+				height: 4rem;
+				width: 4rem;
+			}
+		}
+	}
+}
+
+.owl-carousel{
+	.owl-nav button.owl-prev{
+		margin-right:1rem;
+	}
+	.owl-nav button.owl-prev{
+		margin-left:1rem;
+	}
+}
+
+
+.about-carousel-wrapper{
+	position: relative;
+	&::before{
+		position: absolute;
+		content: "";
+		background-color: $gray-400;
+		width: calc(100% - 45px);
+		height: 100%;
+		left: 0;
+		right: 0;
+		@include background-image(no-repeat, cover); 
+		@include border-radius($organic-radius);
+	}
+
+	.about-carousel{
+		margin-left: 70px;
+		top: -60px;
+		background-color: $white;
+		@include box-shadow($box-shadow-sm);
+		padding: 20px;
+		margin-top: 80px;
+		width: calc(100% - 60px);
+	}
+
+	.owl-dots {
+		position: absolute;
+		bottom: -45px;
+		right: 25px;
+
+		.owl-dot{
+			span{
+				border: $owl-dot-border-width solid $primary;
+			}
+
+			&.active,
+			&:hover {
+				span {
+					background: $primary;
+				}
+            }
+		}
+	}
+	
+    .owl-carousel .owl-item > .single-slider > img {
+        width: 100%;
+    }
+}
+
+.testimonial-slider-wrapper {
+
+	.testimonial-carousel {
+		@include box-shadow($box-shadow-sm);
+		background-color: $white;
+		position: relative;
+		z-index: 4;
+		padding-left: 45px;
+		padding-right: 80px;
+	}
+
+    .star-lists {
+        margin-bottom: 30px;
+        li {
+            &:not(:last-child) {
+                margin-right: 2px;
+            }
+        }
+	}
+	
+	.star-lists {
+		li {
+			color: $warning;
+			font-size: 1rem;
+			display: inline-block;
+		}
+	}
+	
+	.portfolio-testimonial-person {
+		img {
+			margin: auto;
+			max-width: 350px;
+		}
+	}
+	.vertical-dot {
+		.owl-dots {
+			position: absolute;
+			right: 2rem;
+			top: 50%;
+			transform: translateY(-50%);
+			.owl-dot{
+				display:block;
+				span{
+					border: $owl-dot-border-width solid $primary;
+				}
+	
+				&.active,
+				&:hover {
+					span {
+						background: $primary;
+					}
+				}
+				&:not(:last-child) {
+					margin-right: 0px;
+					margin-bottom: 12px;
+				}
+			}
+		}
+		.owl-nav.disabled + .owl-dots {
+			margin-top: 0;
+		}
+	}
+}
+

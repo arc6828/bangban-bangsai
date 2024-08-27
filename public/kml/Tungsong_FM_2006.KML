@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+    <Document>
+        <name>Tungsong_FM_2006</name>
+        <LookAt>
+            <latitude>        8.1170129282</latitude>
+            <longitude>       99.6490122079</longitude>
+            <range>47984.408539</range>
+        </LookAt>
+        <GroundOverlay>
+            <name> 2006-02-10-07-00</name>
+            <color>FFFFFFFF</color>
+            <Icon>
+                <href>.\Tungsong_FM_2006 2006-02-10-07-00.png</href>
+            </Icon>
+            <altitude>0</altitude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <LatLonBox>
+                <north>        8.2529753306</north>
+                <south>        7.9810505258</south>
+                <east>       99.8307601372</east>
+                <west>       99.4672642786</west>
+            </LatLonBox>
+            <TimeSpan>
+                <begin>2006-02-10T07:00:00+00:00</begin>
+            </TimeSpan>
+        </GroundOverlay>
+        <ScreenOverlay>
+            <name>Tungsong_FM_2006 legend</name>
+            <Icon>
+                <href>.\Tungsong_FM_2006_Legend.png</href>
+            </Icon>
+            <overlayXY x="0" y="0.4" xunits="fraction" yunits="fraction"/>
+            <screenXY x="0" y="0.3" xunits="fraction" yunits="fraction"/>
+            <rotationXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+            <size x="0.08000000000000001" y="0.4" xunits="fraction" yunits="fraction"/>
+            </ScreenOverlay>
+    </Document>
+</kml
+>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Primary Meta Tags -->
+        <title>Leaf - 404 Not Found Page</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="title" content="Leaf - 404 Not Found Page" />
+        <meta name="author" content="Themesberg" />
+        <meta
+            name="description"
+            content="Leaf is the highest quality and most abundantly featured non profit environmental Bootstrap 4 theme ever created. Having a clean and beautiful UI and UX you can reach and truly get your message across about environmental issues."
+        />
+        <meta
+            name="keywords"
+            content="bootstrap 4, bootstrap, bootstrap 4 theme, bootstrap 4 non profit, bootstrap 4 environmental, climate change theme, environmental theme, green bootstrap 4 theme, themesberg, gulp, sass, responsive, responsive bootstrap 4 theme"
+        />
+        <link
+            rel="canonical"
+            href="https://themesberg.com/product/web-templates/leaf-non-profit-environmental-bootstrap-4-theme"
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://themesberg.com/product/web-templates/leaf-non-profit-environmental-bootstrap-4-theme"
+        />
+        <meta property="og:title" content="Leaf - 404 Not Found Page" />
+        <meta
+            property="og:description"
+            content="Leaf is the highest quality and most abundantly featured non profit environmental Bootstrap 4 theme ever created. Having a clean and beautiful UI and UX you can reach and truly get your message across about environmental issues."
+        />
+        <meta
+            property="og:image"
+            content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/leaf/leaf-preview.jpg"
+        />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:url"
+            content="https://themesberg.com/product/web-templates/leaf-non-profit-environmental-bootstrap-4-theme"
+        />
+        <meta property="twitter:title" content="Leaf - 404 Not Found Page" />
+        <meta
+            property="twitter:description"
+            content="Leaf is the highest quality and most abundantly featured non profit environmental Bootstrap 4 theme ever created. Having a clean and beautiful UI and UX you can reach and truly get your message across about environmental issues."
+        />
+        <meta
+            property="twitter:image"
+            content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/leaf/leaf-preview.jpg"
+        />
+
+        <!-- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="{{ asset('leaf/assets/img/favicon/apple-touch-icon.png') }}"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="{{ asset('leaf/assets/img/favicon/favicon-32x32.png') }}"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="{{ asset('leaf/assets/img/favicon/favicon-16x16.png') }}"
+        />
+        <!-- <link rel="manifest" href="{{ asset('leaf/assets/img/favicon/site.webmanifest') }}" /> -->
+        <link
+            rel="mask-icon"
+            href="{{ asset('leaf/assets/img/favicon/safari-pinned-tab.svg') }}"
+            color="#ffffff"
+        />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- Fontawesome -->
+        <link
+            type="text/css"
+            href="{{ asset('leaf/node_modules/@fortawesome/fontawesome-free/css/all.min.css') }}"
+            rel="stylesheet"
+        />
+
+        <!-- Prism -->
+        <link
+            type="text/css"
+            href="{{ asset('leaf/node_modules/prismjs/themes/prism.css') }}"
+            rel="stylesheet"
+        />
+
+        <!-- World Map -->
+        <link
+            type="text/css"
+            href="{{ asset('leaf/node_modules/jqvmap/dist/jqvmap.min.css') }}"
+            rel="stylesheet"
+        />
+
+        <!-- Leaf CSS -->
+        <link type="text/css" href="{{ asset('leaf/css/leaf.css') }}" rel="stylesheet" />
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    "gtm.start": new Date().getTime(),
+                    event: "gtm.js",
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-THQTXJ7");
+        </script>
+
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-141734189-6"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-141734189-6");
+        </script>
+    </head>
+
+    <body>
+        <main>
+            <section
+                class="
+                    min-vh-100
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                "
+            >
+                <div class="container">
+                    <div class="row text-center">
+                        <div
+                            class="
+                                col-12
+                                d-flex
+                                align-items-center
+                                justify-content-center
+                            "
+                        >
+                            <div>
+                                <a href="{{ url('/') }}">
+                                    <img
+                                        class="img-fluid w-75"
+                                        src="{{asset('leaf/assets/img/404-error.svg')}}"
+                                        alt="404-image"
+                                    />
+                                </a>
+                                <h1 class="mt-5">
+                                    ไม่
+                                    <span
+                                        class="font-weight-bolder text-primary"
+                                        >พบ</span
+                                    >หน้า
+                                </h1>
+                                <p class="lead my-4">
+                                    อ๊ะ! ดูเหมือนว่าคุณตามลิงก์ที่ไม่ถูกต้อง
+                                    หากคุณคิดว่านี่เป็นปัญหากับระบบ โปรดบอกเรา
+                                </p>
+                                <a
+                                    class="btn btn-primary animate-hover"
+                                    href="{{ url('/') }}"
+                                    ><i
+                                        class="
+                                            fas
+                                            fa-chevron-left
+                                            mr-3
+                                            pl-2
+                                            animate-left-3
+                                        "
+                                    ></i
+                                    >กลับไปที่หน้าหลัก</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Core -->
+        <script src="{{ asset('leaf/node_modules/jquery/dist/jquery.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/popper.js/dist/umd/popper.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/headroom.js/dist/headroom.min.js') }}"></script>
+
+        <!-- Vendor JS -->
+        <script src="{{ asset('leaf/node_modules/onscreen/dist/on-screen.umd.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/nouislider/distribute/nouislider.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/bootstrap-datepicker/js/bootstrap-datepicker.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/waypoints/lib/jquery.waypoints.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/owl.carousel/dist/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/jarallax/dist/jarallax.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/jquery.counterup/jquery.counterup.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/jquery-countdown/dist/jquery.countdown.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/chartist/dist/chartist.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/prismjs/prism.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/jqvmap/dist/jquery.vmap.min.js') }}"></script>
+        <script src="{{ asset('leaf/node_modules/jqvmap/dist/maps/jquery.vmap.world.js') }}"></script>
+
+        <!-- Leaf JS -->
+        <script src="{{ asset('leaf/assets/js/leaf.js') }}"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(17, 17, 17, 0.01);
+}
+
+.table th, .table td {
+    border-top: 0.0625rem solid #f1f1f1;
+}
+
+.table thead th {
+    border-bottom: 0.125rem solid #f1f1f1;
+    border-top: 0;
+}
