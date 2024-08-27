@@ -40,7 +40,7 @@
     {{-- <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('leaf/assets/img/favicon/favicon-32x32.png') }}" />
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('leaf/assets/img/favicon/favicon-16x16.png') }}" /> --}}
     {{-- <link rel="icon" type="image/png" href="{{ asset('img/LOGO-icon.png') }}" /> --}}
-    <link rel="icon" type="image/png" href="{{ asset('img/LOGO_KU_Flood.png') }}" />
+    <link rel="icon" type="image/png" href="{{ asset('img/logo-bb-light.jpg') }}" />
     {{-- <link rel="manifest" href="{{ asset('leaf/assets/img/favicon/site.webmanifest') }}" /> --}}
     {{-- <link rel="mask-icon" href="{{ asset('leaf/assets/img/favicon/safari-pinned-tab.svg') }}" color="#ffffff" /> --}}
     <meta name="msapplication-TileColor" content="#ffffff" />

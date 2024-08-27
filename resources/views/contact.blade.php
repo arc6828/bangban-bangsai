@@ -27,40 +27,36 @@
                     <div class="card-group">
                         <div class="card border-left-md border-soft  py-5">
                             <div class="row pb-4">
-                                <div class="col-lg-4 p-5">
-                                    <img class="" src="{{ url('/img/logo/LOGO-Eng.png') }}" width="100%" />
+                                <div class="col-lg-3 text-center">
+                                    {{-- <img class="" src="{{ url('/img/logo/LOGO-Eng.png') }}" width="100%" /> --}}
+                                    <img class="" src="https://sci.vru.ac.th/home/assets/images/logo.webp" width="70%" />
                                 </div>
-                                <div class="col-lg-8 ">
-                                    <h5>ภาควิชาวิศวกรรมทรัพยากรน้ำ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์</h5>
+                                <div class="col-lg-9 ">
+                                    <h5>คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์</h5>
                                     <p>
-                                        ที่อยู่: เลขที่ 50 ถนนงามวงศ์วาน แขวงลาดยาว เขตจตุจักร กรุงเทพ ฯ 10900
-                                        <br />โทรศัพท์ : (02) 797-0999, (02) 579-2775
-                                        <br />Email : eng@ku.ac.th
-                                        <br />Website ภาควิชา : <a href="https://www.wre.eng.ku.ac.th">https://www.wre.eng.ku.ac.th</a>
-                                        <br />Website คณะ : <a href="https://www.eng.ku.ac.th">https://www.eng.ku.ac.th</a>
+                                        ที่อยู่: เลขที่ 1 หมู่ 20 ถนนพหลโยธิน กม.48 ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 13180
+                                        <br />โทรศัพท์ : 02-529-3850
+                                        <br />Email : sciencetech@vru.ac.th
+                                        <br />Website คณะ : <a href="https://sci.vru.ac.th">https://sci.vru.ac.th</a>
                                     </p>
                                 </div>
-
                             </div>
                             <div class=" card-body p-4 p-xl-5 text-center text-lg-left ">
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="row pb-4">
-                                            <div class="col-lg-4">
-                                                <img src="{{ url('/img/logo/LOGO-01.png') }}" width="100%" />
+                                            <div class="col-lg-3">
+                                                {{-- <img src="{{ url('/img/logo/LOGO-01.png') }}" width="100%" /> --}}
+                                                <img src="http://www.vru.ac.th/wp-content/uploads/2023/11/Untitled-1-copy-2.png" width="100%" />
                                             </div>
-                                            <div class="col-lg-8 ">
-                                                <h5>มหาวิทยาลัยเกษตรศาสตร์</h5>
+                                            <div class="col-lg-9">
+                                                <h5>มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์</h5>
                                                 <p>
-                                                    ที่อยู่: เลขที่ 50 ถนนงามวงศ์วาน แขวงลาดยาว เขตจตุจักร กรุงเทพ ฯ
-                                                    10900
-                                                    <br />โทรศัพท์: (02) 579-0113
-                                                    <br />Email : www@ku.ac.th
-                                                    <br />Website : <a
-                                                        href="https://www.ku.ac.th">https://www.ku.ac.th</a>
-                                                    <br />Facebook : <a
-                                                        href="https://www.facebook.com/KasetsartUniversity">https://www.facebook.com/KasetsartUniversity</a>
-
+                                                    ที่อยู่: เลขที่ 1 หมู่ 20 ถนนพหลโยธิน กม.48 ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 13180
+                                                    <br />โทรศัพท์: 02-529-0674-7
+                                                    <br />Email : saraban@vru.ac.th
+                                                    <br />Website : <a href="http://www.vru.ac.th">http://www.vru.ac.th</a>
+                                                    
                                                 </p>
                                             </div>
 
@@ -68,10 +64,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1628.7753802005836!2d100.56776716791306!3d13.84488821621882!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29cddec0efb41%3A0x4fac1d0b01aca6c8!2z4LmA4LiE4Lii4Li5IOC5guC4ruC4oQ!5e0!3m2!1sth!2sth!4v1670581420410!5m2!1sth!2sth"
-                                        width="100%" height="400" style="border:0;" allowfullscreen=""
-                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.0468972524436!2d100.61431177506736!3d14.133339688345805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29935192c96f7%3A0xf986dd8e57a509fb!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Lij4Liy4LiK4Lig4Lix4LiO4Lin4LmE4Lil4Lii4Lit4Lil4LiH4LiB4Lij4LiT4LmM4LmD4LiZ4Lie4Lij4Liw4Lia4Lij4Lih4Lij4Liy4LiK4Li54Lib4LiW4Lix4Lih4Lig4LmM!5e0!3m2!1sth!2sth!4v1724744631889!5m2!1sth!2sth" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                                 {{-- <div class=" icon icon-shape icon-shape-warning rounded-circle ">
                                     <i class="fas fa-users"></i>
