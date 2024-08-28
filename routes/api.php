@@ -134,9 +134,9 @@ Route::get("waterlevel/predict", function () {
 
 // USE FOR number.blade.php
 
-Route::get("now2/{name}", [ThaiWaterController::class,"now"]);
+Route::get("now/{name}", [ThaiWaterController::class,"now"]);
 
-Route::get("now/{name}", function ($name) {
+Route::get("now2/{name}", function ($name) {
     $url = "https://ckartisanspace.sgp1.digitaloceanspaces.com/thungsong/now/now-{$name}.json";
     $response = Http::get($url);
     $data = $response->json();
