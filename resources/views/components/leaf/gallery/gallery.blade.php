@@ -4,7 +4,7 @@
             <div class="col-lg-10 text-center">
                 <span class=" badge badge-secondary badge-pill badge-lg mb-4 ">กิจกรรมของเรา</span>
                 <p class="h2">
-                    กิจกรรมของเราที่ทำร่วมกับชาวบ้านในอำเภอทุ่งสง
+                    กิจกรรมของเรา
                 </p>
             </div>
         </div>

@@ -29,7 +29,7 @@
                 <div class=" d-flex text-center justify-content-center align-items-center ">
                     <p class="small text-gray mb-0">
                         ©
-                        <a href="{{ url('/') }}" target="_blank">THUNGSONG</a>
+                        <a href="{{ url('/') }}" target="_blank">Bangban-Bangsai</a>
                         <span class="current-year"></span>. All rights reserved.
                     </p>
                 </div>
