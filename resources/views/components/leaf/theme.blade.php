@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 @php
-    $title = isset($title) ? $title : 'THUNGSONG :: ML Flood by KU';
+    $title = isset($title) ? $title : 'BBBS :: ML Flood';
     $author = isset($author) ? $author : 'KU Flood Research Team';
-    $description = isset($description) ? $description : 'ระบบคาดการณ์อุทกภัยด้วย Machine Learning ของพื้นที่เทศบาลเมืองทุ่งสง “ML Flood by KU” เป็นส่วนหนึ่งของโครงการ: การพัฒนาระบบคาดการณ์อุทกภัยแบบเรียลไทม์ด้วย Machine Learning ในพื้นที่เทศบาลเมืองทุ่งสง อำเภอทุ่งสง จังหวัดนครศรีธรรมราช, “ML Flood by KU” ซึ่งได้รับทุนจากโครงการนวัตกรรมสู่สังคม ปี 2564-65 ของคณะวิศวกรรมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ โดยมี ผู้ช่วยศาสตราจารย์ สิตางศุ์ พิลัยหล้า สังกัดภาควิชาวิศวกรรมทรัพยากรน้ำ เป็นหัวหน้าโครงการ';
-    $keywords = isset($keywords) ? $keywords : 'Machine Learning, Flood, วิจัย, คาดการณ์, ทุ่งสง, มหาวิทยาลัยเกษตรศาศตร์, ทุนวิจัย';
+    $description = isset($description) ? $description : 'ระบบคาดการณ์อุทกภัยด้วย Machine Learning ของพื้นที่โครงการคลองระบายน้ำหลากบางบาล - บางไทรเป็นส่วนหนึ่งของงานวิจัยเรื่อง การลดผลกระทบด้านสิ่งแวดล้อมและความเสี่ยงจากอุทกภัยด้วยการพัฒนาศักยภาพชุมชนรับมือภัยพิบัติ บริเวณพื้นที่รับน้ำจากโครงการคลองระบายน้ำหลาก บางบาล-บางไทร ซึ่งได้รับการจัดสรรงบประมาณด้านวิทยาศาสตร์ วิจัยและนวัตกรรม (ววน.) ผ่านกองทุนส่งเสริมวิทยาศาสตร์ วิจัย และนวัตกรรม ประจำปีงบประมาณ พ.ศ. 2566';
+    $keywords = isset($keywords) ? $keywords : 'คลองระบายน้ำบางบาลบางไทร,Machine Learning, Flood, วิจัย, คาดการณ์, บางบาล, บางไทร, สามโคก, มหาวิทยาลัยเกษตรศาศตร์, ทุนวิจัย';
     $image = isset($image) ? $image : url('img/ground/LINE_ALBUM_Nakhon%20Sri%20_day%201_160222_220914_78.jpg');
     $url = isset($url) ? $url : url()->current();
     
